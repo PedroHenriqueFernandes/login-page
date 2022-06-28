@@ -96,3 +96,25 @@ form button {
     margin-top: .4rem;
     color: rgb(194, 194, 194);
 }
+
+@media only screen and (max-width: 1100px) {
+    .img {
+        display: none;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        width: 100vw;
+        justify-content: center;
+    }
+    .form {
+        width: 100%;
+    }
+    .box {
+        width: 80vw;
+    }
+    form input,
+    form button {
+        width: 70vw;
+    }
+}
